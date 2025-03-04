@@ -1,43 +1,25 @@
-/* 
-Demonstration no - 2.3(Part A)
-Tittle - Literals in java(Introduction) 
-File name - Literals.java
-Class name - Literals
+package literals;
 
-Literals are the fixed values that are directly written in the code and 
-assigned to variables. These values represent themselves, meaning they are 
-the actual data values.
+public class Literals {
 
-For example:
-1) 10 is a literal (an integer value).
-2) "Hello, World!" is a literal (a string value).
-3) 3.14 is a literal (a floating-point value).
-*/
-
-/*
-Why Do We Use Literals?
-Literals are used to:
-1) Assign initial values to variables.
-2) Use constant values in expressions or operations.
-3) Improve readability and simplicity of the code when values are directly 
-   written.
-*/
-
-/* Demonstration of Literal */
-import java.lang.*;
-class Literals
-{
-	public static void main ( String arg[] )
-	{
-		byte b = 15;
-	    short s = 15;
-	    int i = 15;
-	    System.out.println(b);
-	    System.out.println(s);
-	    System.out.println(i);
-	}
+    public static void main(String[] args) {
+        /*byte b1=10;
+        byte b2=0b1010;
+        byte b3=012;
+        byte b4=0XA;
+        
+        System.out.println(b1);
+        System.out.println(b2);
+        System.out.println(b3);
+        System.out.println(b4);*/
+        
+        long l=9999999999L;
+        float f=12.56f;
+        double d=12.56d;
+        
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+    }
+    
 }
-
-
-
-

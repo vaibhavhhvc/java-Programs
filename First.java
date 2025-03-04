@@ -1,18 +1,17 @@
-/* 
+package first;
 
-demonstration no - 1.1
-The first java program. WAP to print on screen "Hello World!"
-File name - First.java
-Class name - First
+import java.util.*;
 
-*/
-  import java.lang.*;
-  
+public class First {
 
-   class First
-  {
-	  public static void main( String arg[])
-	  {
-		  System.out.println("Hello World!");
-	  }
-  }
+    public static void main(String[] args) {
+        String name;
+        
+        Scanner sc=new Scanner(System.in);
+        System.out.println("May I know your Name: ");
+        name=sc.nextLine();
+        
+        System.out.println("Welcome "+name);
+    }
+    
+}
